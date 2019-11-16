@@ -8,8 +8,10 @@ using System.Windows.Forms;
 
 namespace MyFaceDetect
 {
-
-    class FaceDetect
+    /// <summary>
+    /// 
+    /// </summary>
+    public class FaceDetectManager
     {
         private List<ImageInfo> images;
         //groupId -> name 快速查询
@@ -20,7 +22,7 @@ namespace MyFaceDetect
         public Dictionary<int, string> FaceDic { get => faceDic; set => faceDic = value; }
         public FaceRecognizer FaceRecognizer { get => faceRecognizer; set => faceRecognizer = value; }
 
-        public FaceDetect()
+        public FaceDetectManager()
         {
             Images = new List<ImageInfo>();
             FaceDic = new Dictionary<int, string>();
