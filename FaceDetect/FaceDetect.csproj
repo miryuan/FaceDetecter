@@ -30,6 +30,9 @@
     <None Update="haarcascades\haarcascade_frontalface_alt.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="haarcascades\haarcascade_frontalface_alt2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="haarcascades\haarcascade_frontalface_default.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
